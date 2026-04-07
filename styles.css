@@ -40,7 +40,7 @@ body[data-theme="light"] {
   --hero-bg:
     linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(241, 247, 255, 0.93)),
     linear-gradient(120deg, rgb(255, 255, 255), rgba(255, 255, 255, 0.952));
-  --surface-highlight: rgba(8, 18, 29, 0.493);
+  --surface-highlight: rgba(55, 69, 83, 0.493);
   --input-bg: rgba(245, 248, 252, 0.96);
 }
 
