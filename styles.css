@@ -4,19 +4,19 @@
   --panel-strong: rgba(7, 7, 12, 0.98);
   --text: #ecf4ff;
   --muted: #adc4e5;
-  --accent: #1dff95;
-  --accent-2: #ff7a00;
-  --accent-3: #10d6ff;
-  --border: rgba(255, 255, 255, 0.12);
+  --accent: #0935f7;
+  --accent-2: #0935f7;
+  --accent-3: #0a21eb;
+  --border: rgba(31, 30, 30, 0.514);
   --shadow: 0 24px 80px rgba(0, 0, 0, 0.34);
   --page-bg:
-    radial-gradient(circle at top left, rgba(16, 214, 255, 0.22), transparent 34%),
-    radial-gradient(circle at 85% 10%, rgba(255, 122, 0, 0.22), transparent 30%),
-    radial-gradient(circle at 50% 100%, rgba(29, 255, 149, 0.18), transparent 35%),
+    radial-gradient(circle at top left, rgba(58, 57, 55, 0.76), transparent 34%),
+    radial-gradient(circle at 85% 10%, rgba(58, 57, 55, 0.76), transparent 30%),
+    radial-gradient(circle at 50% 100%, rgba(58, 57, 55, 0.76), transparent 35%),
     linear-gradient(145deg, #000000 0%, #04070d 52%, #08111d 100%);
   --hero-bg:
     linear-gradient(135deg, rgba(0, 0, 0, 0.96), rgba(8, 11, 20, 0.92)),
-    linear-gradient(120deg, rgba(16, 214, 255, 0.08), rgba(255, 122, 0, 0.1));
+    linear-gradient(120deg, rgba(58, 57, 55, 0.76), rgba(58, 57, 55, 0.76));
   --surface-highlight: rgba(255, 255, 255, 0.04);
   --input-bg: rgba(3, 3, 8, 0.92);
 }
@@ -28,7 +28,7 @@ body[data-theme="light"] {
   --text: #122033;
   --muted: #56667b;
   --accent: #007d6c;
-  --accent-2: #db5f00;
+  --accent-2: #070707;
   --accent-3: #0077d9;
   --border: rgba(16, 32, 51, 0.1);
   --shadow: 0 24px 60px rgba(32, 62, 94, 0.12);
@@ -263,12 +263,30 @@ h1 {
 }
 
 .hero-contact-strip a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   padding: 10px 14px;
   border: 1px solid var(--border);
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.04);
   color: var(--text);
   text-decoration: none;
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  color: currentColor;
+}
+
+.social-icon svg {
+  width: 100%;
+  height: 100%;
+  fill: currentColor;
 }
 
 .button {
@@ -362,6 +380,9 @@ h1 {
 }
 
 .card-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   padding: 10px 14px;
   border-radius: 12px;
   background: var(--surface-highlight);
@@ -556,6 +577,9 @@ body[data-theme="light"] .preview-fallback a {
 }
 
 .contact-list a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   color: var(--muted);
 }
 
