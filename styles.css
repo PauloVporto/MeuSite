@@ -39,7 +39,7 @@ body[data-theme="light"] {
     linear-gradient(145deg, #f7fbff 0%, #eef4fb 52%, #eaf2fb 100%);
   --hero-bg:
     linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(241, 247, 255, 0.93)),
-    linear-gradient(120deg, rgba(0, 119, 217, 0.05), rgba(255, 143, 61, 0.08));
+    linear-gradient(120deg, rgb(255, 255, 255), rgba(255, 255, 255, 0.952));
   --surface-highlight: rgba(15, 41, 67, 0.04);
   --input-bg: rgba(245, 248, 252, 0.96);
 }
