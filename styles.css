@@ -84,7 +84,7 @@ body::after {
   height: 280px;
   right: -80px;
   bottom: 4%;
-  background: linear-gradient(135deg, rgba(27, 18, 10, 0.932), rgba(27, 18, 10, 0.932));
+  background: linear-gradient(135deg, rgba(68, 66, 64, 0.466), rgba(61, 60, 58, 0.507));
 }
 
 .page-shell {
