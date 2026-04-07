@@ -76,7 +76,7 @@ body::before {
   height: 240px;
   top: 9%;
   left: -60px;
-  background: linear-gradient(135deg, rgba(29, 255, 149, 0.44), rgba(16, 214, 255, 0.2));
+  background: linear-gradient(135deg, rgba(0, 68, 255, 0.932), rgba(0, 68, 255, 0.932));
 }
 
 body::after {
@@ -84,7 +84,7 @@ body::after {
   height: 280px;
   right: -80px;
   bottom: 4%;
-  background: linear-gradient(135deg, rgba(255, 122, 0, 0.4), rgba(255, 84, 112, 0.18));
+  background: linear-gradient(135deg, rgba(27, 18, 10, 0.932), rgba(27, 18, 10, 0.932));
 }
 
 .page-shell {
