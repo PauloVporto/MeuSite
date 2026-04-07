@@ -33,9 +33,9 @@ body[data-theme="light"] {
   --border: rgba(21, 34, 51, 0.527);
   --shadow: 0 24px 60px rgba(32, 62, 94, 0.12);
   --page-bg:
-    radial-gradient(circle at top left, rgba(0, 119, 217, 0.11), transparent 34%),
-    radial-gradient(circle at 85% 10%, rgba(255, 143, 61, 0.18), transparent 30%),
-    radial-gradient(circle at 50% 100%, rgba(0, 125, 108, 0.12), transparent 35%),
+    radial-gradient(circle at top left, rgba(72, 75, 78, 0.637), transparent 34%),
+    radial-gradient(circle at 85% 10%, rgba(116, 111, 108, 0.473), transparent 30%),
+    radial-gradient(circle at 50% 100%, rgb(240, 255, 253), transparent 35%),
     linear-gradient(145deg, #f7fbff 0%, #eef4fb 52%, #eaf2fb 100%);
   --hero-bg:
     linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(241, 247, 255, 0.93)),
