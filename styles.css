@@ -28,9 +28,9 @@ body[data-theme="light"] {
   --text: #122033;
   --muted: #56667b;
   --accent: #007d6c;
-  --accent-2: #070707;
+  --accent-2: #75737385;
   --accent-3: #0077d9;
-  --border: rgba(16, 32, 51, 0.1);
+  --border: rgba(16, 32, 51, 0.452);
   --shadow: 0 24px 60px rgba(32, 62, 94, 0.12);
   --page-bg:
     radial-gradient(circle at top left, rgba(0, 119, 217, 0.11), transparent 34%),
